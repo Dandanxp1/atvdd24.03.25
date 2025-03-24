@@ -6,13 +6,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    flex-direction: column; /* Adicionando direção em coluna */
-    text-align: center; /* Centraliza o texto */
+    flex-direction: column;
+    text-align: center;
 }
 
 h2 {
-    margin-bottom: 20px; /* Distância entre o título e o formulário */
-    font-size: 24px; /* Ajustando o tamanho da fonte */
+    margin-bottom: 20px;
+    font-size: 24px;
     color: #333;
 }
 
