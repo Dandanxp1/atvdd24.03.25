@@ -13,7 +13,7 @@ body {
 h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #50b4e9;
 }
 
 .container {
@@ -26,11 +26,12 @@ h2 {
 }
 
 h3 {
-    color: #333;
+    color: #28316b;
 }
 
 form {
     margin: 20px 0;
+
 }
 
 input[type="text"], input[type="password"], input[type="number"] {
@@ -43,7 +44,7 @@ input[type="text"], input[type="password"], input[type="number"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #28316b;
     color: #fff;
     border: none;
     padding: 10px;
@@ -53,7 +54,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #50b4e9;
 }
 
 .erro {
@@ -62,7 +63,7 @@ input[type="submit"]:hover {
 }
 
 .sucesso {
-    color: green;
+    color: #50b4e9;
     font-weight: bold;
 }
 
@@ -101,4 +102,20 @@ input[type="submit"]:hover {
 
 .logout:hover {
     background: #ddd;
+}
+
+.skill-item img{
+    width: 150px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 250px;
 }

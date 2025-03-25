@@ -29,15 +29,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Simulador de Caixa Eletrônico</title>
 </head>
 <body>
-<h2>Bem-vindo ao Caixa Eletrônico</h2>
+
+<div class="logo">
+    <div class="skill-item">
+        <img src="./Imagens/logo.png">
+    </div>
+</div>
+
+<h2>Login Mercado Pago</h2>
 <form method="POST" action="index.php">
+    <div class="login">
     <label for="usuario">CPF:</label><br>
+    
+
+    
     <input type="text" id="usuario" name="usuario" required placeholder="Digite seu CPF" maxlength="11" pattern="\d{11}"><br><br>
 
     <label for="senha">Senha:</label><br>
     <input type="password" id="senha" name="senha" required placeholder="Digite qualquer senha"><br><br>
 
-    <input type="submit" value="Entrar">
+    <input type="submit" value="Login">
+    </div>
 </form>
 
 <?php
